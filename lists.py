@@ -1,5 +1,6 @@
-mylist = ['banana', 'cherry', 'apple']
-print(mylist)
+mylist = [1, 2, 3, 4, 5, 6]
 
-mylist2 = list()
-print(mylist2)
+b = [i*i for i in mylist]
+
+print(mylist)
+print(b)
