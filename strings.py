@@ -1,10 +1,4 @@
-my_list = ['a'] * 6
-print(my_list)
-
-my_string = ''
-for i in my_list:
-    my_string += i
-print(my_string)
-
-my_string = ' '.join(my_list)
+var = 3.1234567
+var2 = 6
+my_string = f"the variable is {var} and {var2}"
 print(my_string)
