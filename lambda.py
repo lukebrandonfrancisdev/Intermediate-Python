@@ -11,9 +11,9 @@ points2d = [(1, 2), (15, 1), (5, -1), (10, 4)]
 points2d_sorted = sorted(points2d, key= lambda x: x[1])
 
 print(points2d)
-print(points2d_sorted)"""
+print(points2d_sorted)
 
 a = [1, 2, 3, 4]
 
 product_a = reduce(lambda x,y: x*y, a)
-print(product_a)
+print(product_a)"""
